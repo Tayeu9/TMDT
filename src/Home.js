@@ -32,7 +32,7 @@ function Home() {
                 </div>
             </div>
             <Title key={1} de={"CÁC PHIÊN ĐẤU GIÁ"} />
-            <NavbarHome loai={loai} handleNavbarClick={handleNavbarClick} /> {/* Truyền hàm và giá trị loại xuống NavbarHome */}
+            <NavbarHome loai={loai} handleNavbarClick={handleNavbarClick} />
             <List key={1} loai={loai} />
             <Navbar />
             <Footer />

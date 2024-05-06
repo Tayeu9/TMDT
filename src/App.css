@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.product-info {
+  margin-top: 30px;
+  font-size: 20px;
+  justify-content: space-between; 
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 30px;
+
+}

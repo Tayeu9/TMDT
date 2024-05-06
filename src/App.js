@@ -9,6 +9,7 @@ import Phongdaugia from './Phongdaugia'
 import Lichsu from './Lichsu'
 import Thanhtoan from './Thantoan'
 import Admin from './Admin'
+import Taophien from './Taophien';
 import './App.css';
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
       <Route path='/Phongdaugia' element={<Phongdaugia />}></Route>
       <Route path='/Thanhtoan' element={<Thanhtoan />}></Route>
       <Route path='/Admin' element={<Admin />}></Route>
+      <Route path='/Taophien' element={<Taophien />}></Route>
     </Routes>
 
 
